@@ -7,7 +7,7 @@ function writeCards(nameArray, celebration) {
 }
 
 function countDown(num) {
-  while (num > 0) {
+  while (num >= 0) {
     console.log(num);
     num--;
   }
